@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kc-job-listings-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kcJobListings/KcJobListingsWebPart.js",
+          "manifest": "./src/webparts/kcJobListings/KcJobListingsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KcJobListingsWebPartStrings": "lib/webparts/kcJobListings/loc/{locale}.js"
+  }
+}

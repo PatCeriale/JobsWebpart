@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "king-county-intranet-client-side-solution",
+    "id": "410b7067-4873-4c11-897b-7dc1bfeab8f2",
+    "version": "1.0.0.25",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": true,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [{
+      "resource": "Microsoft Graph",
+      "scope": "User.ReadBasic.All"
+  },
+  {
+      "resource": "Microsoft Graph",
+      "scope": "Sites.Read.All"
+  },
+  {
+      "resource": "Microsoft Graph",
+      "scope": "Sites.ReadWrite.All"
+  }
+]
+  },
+  "paths": {
+    "zippedPackage": "solution/king-county-intranet.sppkg"
+  }
+}

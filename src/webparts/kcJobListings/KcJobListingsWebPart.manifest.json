@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "98baffaa-56b3-453b-a2c5-e4e731916b7a",
+  "alias": "KcJobListingsWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "KC.JobListings" },
+    "description": { "default": "Filtered list of jobs available from King County Careers" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "KC.JobListings"
+    }
+  }]
+}
